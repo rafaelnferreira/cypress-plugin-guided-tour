@@ -1,0 +1,35 @@
+{
+  "name": "cypress-plugin-guided-tour",
+  "version": "1.0.0",
+  "description": "A simple plugin to add guided tour functionality to cypress steps",
+  "main": "src",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.eslintrc,.json .",
+    "cypress-ci": "cypress run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/eslint-plugin-dev": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "cypress": "^7.2.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-cypress": "^2.2.1",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-mocha": "^6.1.1",
+    "lint-staged": "^9.2.5",
+    "typescript": "^3.6.3"
+  },
+  "types": "src/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafaelnferreira/cypress-plugin-guided-tour.git"
+  },
+  "author": "Rafael Ferreira",
+  "keywords": [
+    "cypress",
+    "plugin",
+    "guided-tour"
+  ]
+}
