@@ -1,6 +1,6 @@
 {
   "name": "cypress-plugin-guided-tour",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple plugin to add guided tour functionality to cypress steps",
   "main": "src",
   "scripts": {
